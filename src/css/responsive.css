@@ -1,14 +1,34 @@
-@media (max-widht: 992) {
+@media (max-width: 992) {
+    .secao-com-texto {
+        padding: 153px 0;
+    }
+
     .secao-com-texto p{
+        width: 100%;
+    }
+
+    .secao-com-texto.onde-estamos p {
         width: 100%;
     }
 }
 
-@media (max-widht: 768) {
+@media (max-width: 768) {
     
 }
 
-@media (max-widht: 425) {
+@media (max-width: 720) {
+    .ladrilho .grande,
+    .ladrilho .medio {
+        width: 100%;
+    }
+
+    .ladrilho .pequeno,
+    .ladrilho .pequeno.grao {
+        width: 50%;
+    }
+}
+
+@media (max-width: 425) {
     .cabecalho .logo {
         display: block;
         margin: 0 auto;
@@ -31,5 +51,20 @@
 
     .painel h2 {
         font-size: 2.5rem;
+    }
+
+    .secao-com-texto h2 {
+        font-size: 3rem;
+    }
+
+    .secao-com-texto.onde-estamos p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .ladrilho .pequeno,
+    .ladrilho .pequeno.grao {
+        width: 50%;
     }
 }
